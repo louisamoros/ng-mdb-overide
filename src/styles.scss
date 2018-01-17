@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@charset "UTF-8";
+
+$primary: #ffffff;
+$primary-color: #ffffff;
+
+// font awesome
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+// angular bootstrap
+@import "~angular-bootstrap-md/scss/bootstrap/bootstrap";
+@import "~angular-bootstrap-md/scss/bootstrap/functions";
+@import "~angular-bootstrap-md/scss/bootstrap/variables";
+@import "~angular-bootstrap-md/scss/mdb/free/data/prefixer";
+@import "~angular-bootstrap-md/scss/mdb/free/data/mixins";
+@import "~angular-bootstrap-md/scss/mdb/free/data/colors";
+@import "~angular-bootstrap-md/scss/mdb/free/data/variables";
+@import "~angular-bootstrap-md/scss/mdb/free/global";
+@import "~angular-bootstrap-md/scss/mdb/free/animations";
+@import "~angular-bootstrap-md/scss/mdb/free/helpers";
+// no need
+//@import "~angular-bootstrap-md/scss/mdb/free/typography";
+@import "~angular-bootstrap-md/scss/mdb/free/buttons";
+@import "~angular-bootstrap-md/scss/mdb/free/cards-basic";
+@import "~angular-bootstrap-md/scss/mdb/free/dropdowns";
+@import "~angular-bootstrap-md/scss/mdb/free/navbar";
+@import "~angular-bootstrap-md/scss/mdb/free/pagination";
+@import "~angular-bootstrap-md/scss/mdb/free/badge";
+@import "~angular-bootstrap-md/scss/mdb/free/breadcrumb";
+@import "~angular-bootstrap-md/scss/mdb/free/modals";
+@import "~angular-bootstrap-md/scss/mdb/free/progress";
+// no need
+//@import "~angular-bootstrap-md/scss/mdb/free/carousel-basic";
+@import "~angular-bootstrap-md/scss/mdb/free/jumbotron";
+// no need
+//@import "~angular-bootstrap-md/scss/mdb/free/masks";
+@import "~angular-bootstrap-md/scss/mdb/free/waves";
+@import "~angular-bootstrap-md/scss/mdb/free/forms-basic";
+@import "~angular-bootstrap-md/scss/mdb/free/msc";
+@import "~angular-bootstrap-md/scss/mdb/free/footer";
+@import "~angular-bootstrap-md/scss/mdb/free/list-group";
+@import "~angular-bootstrap-md/scss/mdb/free/tables";
+
+@import "~angular-bootstrap-md/scss/angular/mdb-angular-free";
+
